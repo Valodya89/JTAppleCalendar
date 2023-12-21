@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "JTAppleCalendar",
+            type: .dynamic,
             targets: ["JTAppleCalendar"]),
     ],
     targets: [
